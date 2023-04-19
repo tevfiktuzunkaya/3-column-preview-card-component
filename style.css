@@ -1,0 +1,133 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+
+body {
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+
+
+.lexend-400 {
+
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+
+.big-700 {
+
+    font-family: 'Big Shoulders Display', cursive;
+
+}
+h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+
+
+.container {
+    display: grid;
+    width: 850px;
+    height: 450px;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    
+    
+    
+}
+
+h2 {
+    color:hsl(0, 0%, 95%);
+}
+button {
+    background-color: hsl(0, 0%, 95%);
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    
+}
+
+.first {
+    background-color: hsl(31, 77%, 52%);
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+    padding: 3rem;
+    
+    
+}
+
+.second {
+    background-color: hsl(184, 100%, 22%);
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+    padding: 3rem;
+}
+
+.third {
+    background-color: hsl(179, 100%, 13%);
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+    padding: 3rem;
+}
+
+button {
+    padding: .7rem;
+    border-radius: 20px;
+    border: none;
+    width: 9rem;
+    cursor: pointer;
+    
+}
+.first-area{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    
+    
+}
+.second-area{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.third-area{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.button1 {
+    color:hsl(31, 77%, 52%) ;
+    font-weight: 600;
+}
+.button2 {
+    color: hsl(184, 100%, 22%);
+    font-weight: 600;
+}
+.button3 {
+    color:hsl(179, 100%, 13%) ;
+    font-weight: 600;
+}
+
+
+img {
+    width:4rem;
+    
+}
